@@ -11,6 +11,7 @@ chrome.runtime.onMessage.addListener(
         enabled = true;
         } else {
           window.removeEventListener('copy', enableCopy, true)
+        enabled = false;
         }
       }
       
